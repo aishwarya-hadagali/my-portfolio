@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between px-8 py-4">
+        <span class="text-white text-xl font-bold">MyPortfolio</span>
+        <div class="flex gap-8">
+            <a class="text-white text-lg cursor-pointer">Home</a>
+            <a class="text-white text-lg cursor-pointer">Projects</a>
+            <a class="text-white text-lg cursor-pointer">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex flex-col items-center justify-center min-h-96 text-center px-4">
+        <p class="text-blue-400 text-sm tracking-widest mb-4">WELCOME TO MY PORTFOLIO</p>
+        <h1 class="text-white text-5xl font-bold mb-4">
+            I am a <span class="text-blue-400">Frontend Developer</span>
+        </h1>
+        <p class="text-gray-400 text-base mb-8 max-w-lg">
+            Passionate about building beautiful and responsive
+            web applications using React.js and modern CSS.
+        </p>
+        <div class="flex gap-4">
+            <button class="bg-blue-500 text-white px-7 py-3 rounded-lg hover:bg-blue-600">Hire Me</button>
+            <button class="border-2 border-white text-white px-7 py-3 rounded-lg hover:bg-white hover:text-gray-900">View Projects</button>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="bg-gray-900 py-16 px-8">
+        <p class="text-blue-400 text-sm tracking-widest text-center mb-2">WHO I AM</p>
+        <h2 class="text-white text-3xl font-bold text-center mb-12">About Me</h2>
+        <div class="flex items-center justify-center gap-12 flex-wrap">
+            <div class="w-40 h-40 rounded-full bg-gray-700 border-4 border-blue-500 flex items-center justify-center">
+                <span class="text-blue-400 text-5xl font-bold">A</span>
+            </div>
+            <div class="max-w-lg">
+                <h3 class="text-white text-xl font-bold mb-1">Aishwarya Hadagali</h3>
+                <p class="text-blue-400 text-sm mb-4">Frontend Developer</p>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                    Final year Computer Science student with CGPA 8.79.
+                    Passionate about building beautiful and responsive web
+                    applications using React.js, HTML, CSS and JavaScript.
+                </p>
+                <div class="flex gap-3 flex-wrap">
+                    <div class="bg-gray-700 px-4 py-2 rounded-full">
+                        <span class="text-gray-400 text-sm">📍 Gadag, Karnataka</span>
+                    </div>
+                    <div class="bg-gray-700 px-4 py-2 rounded-full">
+                        <span class="text-gray-400 text-sm">🎓 BE Computer Science</span>
+                    </div>
+                    <div class="bg-gray-700 px-4 py-2 rounded-full">
+                        <span class="text-gray-400 text-sm">⭐ CGPA 8.79</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="bg-gray-800 py-16 px-8">
+        <p class="text-blue-400 text-sm tracking-widest text-center mb-2">WHAT I KNOW</p>
+        <h2 class="text-white text-3xl font-bold text-center mb-12">My Skills</h2>
+        <div class="grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">🌐</div>
+                <p class="text-white text-sm font-medium">HTML5</p>
+            </div>
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">🎨</div>
+                <p class="text-white text-sm font-medium">CSS3</p>
+            </div>
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">⚡</div>
+                <p class="text-white text-sm font-medium">JavaScript</p>
+            </div>
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">⚛️</div>
+                <p class="text-white text-sm font-medium">React.js</p>
+            </div>
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">🌊</div>
+                <p class="text-white text-sm font-medium">Tailwind CSS</p>
+            </div>
+            <div class="bg-gray-700 border border-blue-500 rounded-xl p-6 text-center">
+                <div class="text-4xl mb-2">🐙</div>
+                <p class="text-white text-sm font-medium">Git & GitHub</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="bg-gray-900 py-16 px-8">
+        <p class="text-blue-400 text-sm tracking-widest text-center mb-2">WHAT I BUILT</p>
+        <h2 class="text-white text-3xl font-bold text-center mb-12">My Projects</h2>
+        <div class="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
+
+            <!-- Weather App Card -->
+            <div class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden">
+                <div class="bg-gray-700 p-8 text-center text-5xl">🌤️</div>
+                <div class="p-5">
+                    <h3 class="text-white font-bold text-lg mb-2">Weather App</h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Real-time weather app that fetches live data using
+                        OpenWeatherMap API. Shows temperature, humidity and
+                        wind speed with CSS keyframe animations.
+                    </p>
+                    <div class="flex gap-2 flex-wrap mb-4">
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">React.js</span>
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">REST API</span>
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">CSS Animations</span>
+                    </div>
+                    <a href="https://github.com/aishwarya-hadagali/weather-app"
+                       target="_blank"
+                       class="text-blue-400 text-sm hover:text-blue-300">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Todo App Card -->
+            <div class="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden">
+                <div class="bg-gray-700 p-8 text-center text-5xl">✅</div>
+                <div class="p-5">
+                    <h3 class="text-white font-bold text-lg mb-2">Todo App</h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Feature-rich todo app with add, delete and toggle
+                        complete. Filter system using useReducer hook.
+                    </p>
+                    <div class="flex gap-2 flex-wrap mb-4">
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">React.js</span>
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">useReducer</span>
+                        <span class="bg-blue-900 text-blue-400 text-xs px-3 py-1 rounded-full">CSS Grid</span>
+                    </div>
+                    <a href="https://github.com/aishwarya-hadagali/todo-app"
+                       target="_blank"
+                       class="text-blue-400 text-sm hover:text-blue-300">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="bg-gray-800 py-16 px-8">
+        <p class="text-blue-400 text-sm tracking-widest text-center mb-2">GET IN TOUCH</p>
+        <h2 class="text-white text-3xl font-bold text-center mb-2">Contact Me</h2>
+        <p class="text-gray-400 text-sm text-center mb-12">Feel free to reach out for internship opportunities!</p>
+
+        <div class="max-w-lg mx-auto">
+
+            <label class="text-gray-400 text-sm mb-2 block">Your Name</label>
+            <input type="text"
+                placeholder="Enter your name"
+                class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white text-sm outline-none focus:border-blue-500 mb-4"
+            />
+
+            <label class="text-gray-400 text-sm mb-2 block">Email Address</label>
+            <input type="email"
+                placeholder="Enter your email"
+                class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white text-sm outline-none focus:border-blue-500 mb-4"
+            />
+
+            <label class="text-gray-400 text-sm mb-2 block">Message</label>
+            <textarea
+                placeholder="Write your message here..."
+                rows="4"
+                class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white text-sm outline-none focus:border-blue-500 resize-none mb-6">
+            </textarea>
+
+            <button class="w-full bg-blue-500 text-white py-3 rounded-lg font-bold hover:bg-blue-600">
+                Send Message
+            </button>
+
+            <div class="flex justify-center gap-8 mt-8 flex-wrap">
+                <a class="text-gray-400 text-sm hover:text-white cursor-pointer">
+                    📧 aishwaryahadagali899@gmail.com
+                </a>
+                <a href="https://github.com/aishwarya-hadagali"
+                   target="_blank"
+                   class="text-gray-400 text-sm hover:text-white">
+                    🐙 GitHub
+                </a>
+                <a href="https://linkedin.com/in/aishwarya-hadagali"
+                   target="_blank"
+                   class="text-gray-400 text-sm hover:text-white">
+                    💼 LinkedIn
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
