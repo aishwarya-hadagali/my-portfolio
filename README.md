@@ -13,4 +13,4 @@ Personal portfolio website built with HTML and Tailwind CSS.
 - Tailwind CSS
 
 ## Live Demo
-[ aishwarya-frontend-portfolio.netlify.app]
+[Click here to view live demo](https://aishwarya-frontend-portfolio.netlify.app)
